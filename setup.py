@@ -1,5 +1,6 @@
 # Autodetecting setup.py script for building the Python extensions
-
+import string
+import signal
 import argparse
 import importlib._bootstrap
 import importlib.machinery
